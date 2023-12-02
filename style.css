@@ -1,0 +1,44 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mytable {
+  border: 1px solid black;
+  background-color: white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+}
+
+.mytable th,
+td {
+  padding: 16px 20px;
+}
+
+.mytable td {
+  border-bottom: 1px solid lightgray;
+}
+
+.mytable th {
+  background-color: #6495ed;
+  color: white;
+}
+
+.mytable tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+/* th,
+td {
+  border: 1px solid black;
+} */
